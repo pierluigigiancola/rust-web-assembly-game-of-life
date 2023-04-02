@@ -2,14 +2,16 @@ lockfileVersion: 5.4
 
 specifiers:
   copy-webpack-plugin: ^5.0.0
-  hello-wasm-pack: ^0.1.0
+  rust-web-assembly-game-of-life: link:../pkg
   webpack: ^4.29.3
   webpack-cli: ^3.1.0
   webpack-dev-server: ^3.1.5
 
+dependencies:
+  rust-web-assembly-game-of-life: link:../pkg
+
 devDependencies:
   copy-webpack-plugin: 5.1.2_webpack@4.46.0
-  hello-wasm-pack: 0.1.0
   webpack: 4.46.0_webpack-cli@3.3.12
   webpack-cli: 3.3.12_webpack@4.46.0
   webpack-dev-server: 3.11.3_i3w7szmgtxghzdij4arpgmor5i
@@ -1750,10 +1752,6 @@ packages:
     dependencies:
       inherits: 2.0.4
       minimalistic-assert: 1.0.1
-    dev: true
-
-  /hello-wasm-pack/0.1.0:
-    resolution: {integrity: sha512-3hx0GDkDLf/a9ThCMV2qG4mwza8N/MCtm8aeFFc/cdBCL2zMJ1kW1wjNl7xPqD1lz8Yl5+uhnc/cpui4dLwz/w==}
     dev: true
 
   /hmac-drbg/1.0.1:
